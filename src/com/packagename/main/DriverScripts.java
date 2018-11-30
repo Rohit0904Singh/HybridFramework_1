@@ -101,19 +101,21 @@ public class DriverScripts {
 				}
 				OBJECT=modulexls.getCellData("TestSteps", "Object", steprow);
 				APP_LOGS.debug("Inside Execute Before OBJECT is "+OBJECT);
-				//OBJECT=OR.getProperty(OBJECT);
-				//APP_LOGS.debug("Inside Execute After OBJECT is "+OBJECT);
+				OBJECT=OR.getProperty(OBJECT);
+				APP_LOGS.debug("Inside Execute After OBJECT is "+OBJECT);
 				// Reflection AP1
 				//Method method[]=reflectapi.getClass().getMethods();
 				for (int i=0;i<method.length;i++){
+					
 					if(method[i].getName().equals(keywordNm)){						
 						keywordresult=(String) method[i].invoke(keywords,DATA,OBJECT);
 						APP_LOGS.debug("----"+keywordresult);
 					}
 
 				}
+				APP_LOGS.debug("-hhhh---");
 				// write in excel result
-				modulexls.setCellData("TestSteps", "Result", steprow, keywordresult);
+				//modulexls.setCellData("TestSteps", "Result", steprow, "");
 			}
 		}
 	}

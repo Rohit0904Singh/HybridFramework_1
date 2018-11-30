@@ -28,6 +28,7 @@ public class Keywords {
 		APP_LOGS.debug(" object is "+object);
 		System.setProperty("webdriver.chrome.driver", "F:\\Automation-Test\\Projects\\Jars\\chromedriver.exe");
 		driver=new ChromeDriver();
+		driver.manage().window().maximize();
 		
 		
 		try{

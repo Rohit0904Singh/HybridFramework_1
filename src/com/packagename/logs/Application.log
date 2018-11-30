@@ -1,10 +1,43 @@
-27/11/2018 18:06:22 devpinoyLogger Read Suite File
-27/11/2018 18:06:23 devpinoyLogger Module Name Login_Verification
-27/11/2018 18:06:23 devpinoyLogger Test Case will execute for Module Login_correct_credentials
-27/11/2018 18:06:23 devpinoyLogger Inside executeKeywords
-27/11/2018 18:06:23 devpinoyLogger Keywords defined as OpenWebSite
-27/11/2018 18:06:23 devpinoyLogger Inside Execute Data is config|truecolorsURL
-27/11/2018 18:06:23 devpinoyLogger Inside Execute Before OBJECT is 
-27/11/2018 18:06:23 devpinoyLogger  Data is http://54.186.88.119:8090/
-27/11/2018 18:06:23 devpinoyLogger  object is 
-27/11/2018 18:07:14 devpinoyLogger ----Pass
+30/11/2018 16:12:42 devpinoyLogger Read Suite File
+30/11/2018 16:12:44 devpinoyLogger Module Name Login_Verification
+30/11/2018 16:12:45 devpinoyLogger Test Case will execute for Module Login_correct_credentials
+30/11/2018 16:12:45 devpinoyLogger Inside executeKeywords
+30/11/2018 16:12:45 devpinoyLogger Keywords defined as OpenWebSite
+30/11/2018 16:12:45 devpinoyLogger Inside Execute Data is config|truecolorsURL
+30/11/2018 16:12:45 devpinoyLogger Inside Execute Before OBJECT is 
+30/11/2018 16:12:45 devpinoyLogger Inside Execute After OBJECT is null
+30/11/2018 16:12:45 devpinoyLogger  Data is http://54.186.88.119:8090/
+30/11/2018 16:12:45 devpinoyLogger  object is null
+30/11/2018 16:13:02 devpinoyLogger ----Pass
+30/11/2018 16:13:02 devpinoyLogger -hhhh---
+30/11/2018 16:13:02 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:02 devpinoyLogger Keywords defined as writeInInput
+30/11/2018 16:13:02 devpinoyLogger Inside Execute Data is config|email_tc
+30/11/2018 16:13:02 devpinoyLogger Inside Execute Before OBJECT is email_txt
+30/11/2018 16:13:02 devpinoyLogger Inside Execute After OBJECT is //*[@id="Email"]
+30/11/2018 16:13:02 devpinoyLogger Writing in text box rohit@dignitasdigital.com
+30/11/2018 16:13:02 devpinoyLogger Writing Object in text box //*[@id="Email"]
+30/11/2018 16:13:07 devpinoyLogger ----Pass
+30/11/2018 16:13:07 devpinoyLogger -hhhh---
+30/11/2018 16:13:07 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:07 devpinoyLogger Keywords defined as writeInInput
+30/11/2018 16:13:07 devpinoyLogger Inside Execute Data is config|passwrd_tc
+30/11/2018 16:13:07 devpinoyLogger Inside Execute Before OBJECT is password_txt
+30/11/2018 16:13:07 devpinoyLogger Inside Execute After OBJECT is //*[@id="Password"]
+30/11/2018 16:13:07 devpinoyLogger Writing in text box 123456
+30/11/2018 16:13:07 devpinoyLogger Writing Object in text box //*[@id="Password"]
+30/11/2018 16:13:12 devpinoyLogger ----Pass
+30/11/2018 16:13:12 devpinoyLogger -hhhh---
+30/11/2018 16:13:12 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:12 devpinoyLogger Keywords defined as clickLink
+30/11/2018 16:13:12 devpinoyLogger Inside Execute Data is 
+30/11/2018 16:13:12 devpinoyLogger Inside Execute Before OBJECT is submit_button
+30/11/2018 16:13:12 devpinoyLogger Inside Execute After OBJECT is //*[@type="submit"]
+30/11/2018 16:13:14 devpinoyLogger ----null
+30/11/2018 16:13:14 devpinoyLogger -hhhh---
+30/11/2018 16:13:14 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:14 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:14 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:14 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:14 devpinoyLogger Inside executeKeywords
+30/11/2018 16:13:14 devpinoyLogger Inside executeKeywords
